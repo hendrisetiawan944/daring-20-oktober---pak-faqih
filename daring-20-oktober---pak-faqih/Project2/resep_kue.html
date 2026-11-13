@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Resep Kue Maryam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* Identitas Siswa */
+        .identitas {
+            margin-bottom: 25px;
+            padding: 10px 15px;
+            border-left: 4px solid #d9534f;
+            background-color: #f9f9f9;
+        }
+        .identitas p {
+            margin: 4px 0;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        /* Bagian Bahan & Foto Utama */
+        .header-resep {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        .bahan-list {
+            flex: 1;
+        }
+
+        .bahan-list h3 {
+            margin-top: 0;
+            font-size: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .bahan-list ul {
+            padding-left: 20px;
+            font-size: 16px;
+        }
+
+        .bahan-list li {
+            margin-bottom: 8px;
+        }
+
+        .foto-resep img {
+            width: 260px;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 30px 0;
+        }
+
+        /* Bagian Langkah-langkah */
+        .langkah-section h3 {
+            font-size: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ol {
+            padding-left: 20px;
+            font-size: 16px;
+        }
+
+        ol li {
+            margin-bottom: 25px;
+        }
+
+        .langkah-img {
+            display: flex;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .langkah-img img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- IDENTITAS SISWA -->
+    <div class="identitas">
+        <p>Nama : GILANG NUR MAULIDA FAID</p>
+        <p>Kelas : XI RPL</p>
+        <p>Tugas : Praktikum 1 - Pancasila</p>
+    </div>
+
+    <h1>Resep Kue Maryam</h1>
+
+    <!-- BAHAN-BAHAN DAN FOTO UTAMA -->
+    <div class="header-resep">
+        <div class="bahan-list">
+            <h3>Bahan-bahan:</h3>
+            <ul>
+                <li>250 gr tepung terigu</li>
+                <li>1 butir telur</li>
+                <li>3 sdm margarin, lelehkan</li>
+                <li>100 ml air hangat</li>
+                <li>2 sdm susu bubuk (optional)</li>
+                <li>1/2 sdt garam</li>
+                <li>margarin leleh untuk olesan</li>
+                <li>minyak untuk merendam</li>
+            </ul>
+        </div>
+        <div class="foto-resep">
+            <img src="roti_maryam.jpg" alt="Foto Kue Maryam">
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- LANGKAH-LANGKAH -->
+    <div class="langkah-section">
+        <h3>Langkah-langkah:</h3>
+        <ol>
+            <li>
+                Campur semua bahan roti jadi satu.
+                <div class="langkah-img">
+                    <img src="bahan_campur.jpg" alt="Langkah 1">
+                </div>
+            </li>
+            <li>
+                Uleni sampai kalis (aku pake tangan) jangan takut jika adonan lengket ya, lumuri tangan sekali-kali dgn tepung (tapi jangan menambahkan tepung) uleni terus sampai adonan kalis.
+                <div class="langkah-img">
+                    <img src="uleni_1.jpg" alt="Langkah 2a">
+                    <img src="uleni_2.jpg" alt="Langkah 2b">
+                </div>
+            </li>
+            <li>
+                Kalisnya adonan camat tidak sekalis adonan roti ya kira-kira seperti ini sudah cukup.
+                <div class="langkah-img">
+                    <img src="diuleni_kalis.jpg" alt="Langkah 3">
+                </div>
+            </li>
+            <li>
+                Bagi adonan menjadi beberapa bulatan kecil, rendam minyak, lalu pipihkan tipis dan gulung memanjang hingga membentuk lingkaran/konde.
+                <div class="langkah-img">
+                    <img src="roti_rendam.jpeg" alt="Langkah 4 - Membentuk Adonan">
+                </div>
+            </li>
+            <li>
+                Pipihkan kembali adonan yang sudah digulung, lalu panggang di atas teflon dengan api kecil menggunakan sedikit margarin hingga cokelat keemasan.
+                <div class="langkah-img">
+                    <img src="roti_panggang.jpeg" alt="Langkah 5 - Memanggang Roti Maryam">
+                </div>
+            </li>
+        </ol>
+    </div>
+
+</body>
+</html>

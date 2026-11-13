@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 - Tabel Absensi Siswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* Identitas Siswa */
+        .identitas {
+            margin-bottom: 25px;
+            padding: 10px 15px;
+            border-left: 4px solid #0275d8;
+            background-color: #f9f9f9;
+        }
+        .identitas p {
+            margin: 4px 0;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 25px;
+        }
+
+        /* Styling Tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 8px 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        td.nama {
+            text-align: left; /* Teks nama siswa rata kiri */
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- IDENTITAS SISWA -->
+    <div class="identitas">
+        <p>Nama : GILANG NUR MAULIDA FAID</p>
+        <p>Kelas : XI RPL</p>
+        <p>Tugas : Praktikum 1 - Pancasila</p>
+    </div>
+
+    <h1>Tabel Absensi Siswa</h1>
+
+    <!-- TABEL ABSENSI SESUAI MODUL -->
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">NIS</th>
+                <th rowspan="2">Nama</th>
+                <th colspan="3">Januari</th>
+                <th colspan="3">Februari</th>
+                <th colspan="3">Maret</th>
+            </tr>
+            <tr>
+                <!-- Bulan Januari -->
+                <th>S</th>
+                <th>I</th>
+                <th>A</th>
+                <!-- Bulan Februari -->
+                <th>S</th>
+                <th>I</th>
+                <th>A</th>
+                <!-- Bulan Maret -->
+                <th>S</th>
+                <th>I</th>
+                <th>A</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td class="nama">Aditya</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>1</td><td>0</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td class="nama">Akbar</td>
+                <td>0</td><td>1</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td class="nama">Aretha</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>0</td><td>0</td><td>1</td>
+                <td>0</td><td>0</td><td>0</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td class="nama">Helcia Andika Putri</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td class="nama">Khaula</td>
+                <td>1</td><td>0</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>0</td><td>1</td><td>0</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>1006</td>
+                <td class="nama">Nabila</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>0</td><td>1</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>1007</td>
+                <td class="nama">Relyta</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>0</td><td>0</td><td>0</td>
+                <td>1</td><td>0</td><td>0</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

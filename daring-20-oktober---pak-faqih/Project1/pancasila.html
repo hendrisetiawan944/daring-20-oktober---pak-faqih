@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum - Pancasila</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        /* Identitas Siswa */
+        .identitas {
+            display: inline-block;
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            border-left: 4px solid #cc0000;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .identitas p {
+            margin: 4px 0;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        /* Burung Garuda di Tengah Atas */
+        .garuda-box {
+            margin-bottom: 30px;
+        }
+        .garuda-box img {
+            width: 130px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        /* Container untuk tiap sila (Foto di atas, teks di bawah) */
+        .pancasila-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .sila-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: #fafafa;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .sila-item img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border: 1px solid #333;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        .sila-text {
+            font-size: 17px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. IDENTITAS SISWA -->
+    <div class="identitas">
+        <p>Nama : GILANG NUR MAULIDA FAID</p>
+        <p>Kelas : XI RPL</p>
+        <p>Tugas : Praktikum 1 - Pancasila</p>
+    </div>
+
+    <!-- 2. BURUNG GARUDA DI TENGAH ATAS -->
+    <div class="garuda-box">
+        <img src="simbol_garuda.webp" alt="Burung Garuda Pancasila">
+    </div>
+
+    <!-- 3. JUDUL -->
+    <h1>PANCASILA</h1>
+    
+    <!-- 4. DAFTAR SILA BESERTA FOTO DI SAMPINGNYA -->
+    <div class="pancasila-list">
+        <div class="sila-item">
+            <img src="simbol_bintang.jpg" alt="Bintang">
+            <div class="sila-text">1. Ketuhanan Yang Maha Esa</div>
+        </div>
+        
+        <div class="sila-item">
+            <img src="simbol_rantai.webp" alt="Rantai">
+            <div class="sila-text">2. Kemanusiaan Yang Adil dan Beradab</div>
+        </div>
+        
+        <div class="sila-item">
+            <img src="simbol_beringin.webp" alt="Pohon Beringin">
+            <div class="sila-text">3. Persatuan Indonesia</div>
+        </div>
+        
+        <div class="sila-item">
+            <img src="simbol_banteng.webp" alt="Kepala Banteng">
+            <div class="sila-text">4. Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan perwakilan</div>
+        </div>
+        
+        <div class="sila-item">
+            <img src="simbol_padikapas.png" alt="Padi & Kapas">
+            <div class="sila-text">5. Keadilan sosial bagi seluruh rakyat Indonesia</div>
+        </div>
+    </div>
+
+</body>
+</html>
